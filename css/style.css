@@ -139,6 +139,7 @@ body {
 
 .intro-inner {
 	display: flex;
+	overflow: hidden;
 }
 
 .intro-img {
@@ -502,8 +503,12 @@ body {
 		padding: 49px 50px 33px 50px;
 	}
 
+	.testimonials .container {
+		overflow: hidden;
+	}
+
 	.slider {
-		width: 101%;
+		width: 96vw;
 	}
 }
 
@@ -668,9 +673,5 @@ body {
 
 	.slider-slides {
     width: 2800px;
-}
-
-.slider {
-	width: 110%;
-}
+	}
 }
